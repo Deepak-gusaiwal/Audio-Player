@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+    <link rel="stylesheet" href="./index.css">
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/b7a379f330.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logoBox">
+            <img src="./logo-images/justchill.jpg" alt="">
+            <div class="logoText">
+                <span>dhondhu</span>
+                <span class="chill"> just chill</span>
+            </div>
+        </div>
+
+        <input type="checkbox" name="" id="check">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">work</a></li>
+            <li><a href="">gallery</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <label for="check">
+            <div class="toogler">
+                <div class="middle"></div>
+            </div>
+        </label>
+    </header>
+
+    <!-- home-section-started -->
+    <div class="homeSection">
+        <div class="carouselImageBox">
+            <img class="active" src="./coverImages/alanwalker.jpg" alt="">
+            <img class="" src="./coverImages/belenchi.jpeg" alt="">
+            <img class="" src="./coverImages/badam.jpg" alt="">
+            <img class="" src="./coverImages/lionheart.jpg" alt="">
+            <img class="" src="./coverImages/harry porter.jpg" alt="">
+        </div>
+    </div>
+    <!-- home-section-ended -->
+
+
+
+
+
+
+    <!-- homeSection -->
+
+    <section class="allContainer">
+        <!-- PlayLists -->
+        <h1>Your PlayList</h1>
+        <div class="flex-box">
+            <!-- populate it by javaScript -->
+        </div>
+
+
+
+    </section>
+
+    <section class="music-player-section">
+        <div>
+        <span class="back-btn icon hide fa-solid fa-angle-left"></span>
+        <span class="nav-btn icon hide fa-solid fa-dice-four"></span>
+        </div>
+        <div>
+            <h1 class="current-song-name">song1</h1>
+            <p class="artist-name hide">Artist-1</p>
+            <img src="" class="cover hide" alt="">
+        </div>
+        <div class="combiner">
+            <div class="seek-bar-container">
+                <input type="range" name="" class="music-seek-bar" id="">
+                <p class="current-time">00 : 00</p>
+                <p class="duration">00 : 00</p>
+            </div>
+            <div class="controls">
+                <span class="fas fa-redo"></span>
+                <div class="main">
+                    <i class="fas fa-backward active"></i>
+                    <i class="fas fa-play active"></i>
+                    <i class="fas fa-pause "></i>
+                    <i class="fas fa-forward active"></i>
+                </div>
+                <div class="volume-box">
+                    <input type="range" name="" id="" class="volume-slider" max="1" value="1" step="0.1">
+                    <span class="fas fa-volume-up"></span>
+                    <span class="volumeNo">0%</span>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="playlist">
+        <!-- we print music items here by javaScript -->
+        <!-- <input type="search" name="" placeholder="search song name here" id=""> -->
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
